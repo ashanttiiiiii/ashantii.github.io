@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta http-equiv = "refresh" content = "5" />---------to make the refresh by it self-------->
+  <title>university website design</title>
+  <link rel="stylesheet" href="stylewebsite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="website.html"><img src=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i> <!-- this is for the close(X) icon -->
+        <ul>
+          <li><a href="website.html">HOME</a></li>
+          <li><a href="About Us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i> <!-- this is for the menu(-) icon -->
+    </nav>
+    <h1>CONTACT US</h1>
+  </section>
+  <!-----contact us------>
+  <section class="location">
+    <!----here you add the google map location by connecting to internet <iframe></iframe>-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31036.64044759098!2d39.444673394614775!3d13.499954884757537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1712956058229!5m2!1sen!2set" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>22 ROAD, ABC Building</h5>
+            <p>MEKELLE, TIGRAY, ETHIOPIA</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <span>
+            <h5>+251-988-276-720</h5>
+            <p>Monday to saturday, 10AM to 6PM</p>
+          </span>
+        </div>
+        <div>
+        <i class="fa fa-envelope"></i>
+        <span>
+          <h5>ashuabr10@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+      </div>
+
+      <div class="contact-col">
+<form action="formhandler.php" method="post">
+<input type="text" name="name" placeholder="enter your Name" required>
+<input type="email" name="email" placeholder="enter your email" required>
+<input type="text" name="subject" placeholder="enter your subject" required>
+<textarea rows="8" name="Message"placeholder="Message" required></textarea>
+<button type="submit" class="hero-btn red-btn">send Message</button>
+</form>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we believe that education should be accessible and flexible. That's why we offer<br>
+      a wide range of online certificate programs that can be completed at your
+      own pace. <br>Our programs are taught by experienced faculty who are dedicated to helping students succeed...</p>
+    <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Ashenafi Abraha.. ugr/172187/12</p>
+
+
+
+  <!--javascript for toggle menu-->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu() {
+      navlinks.style.right = "0";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>

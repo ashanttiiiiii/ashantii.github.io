@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta http-equiv = "refresh" content = "5" />---------to make the refresh by it self-------->
+  <title>winterfall univeresity</title>
+  <link rel="stylesheet" href="stylewebsite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="website.html"><img src=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i> <!-- this is for the close(X) icon -->
+        <ul>
+          <li><a href="website.html">HOME</a></li>
+          <li><a href="About Us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i> <!-- this is for the menu(-) icon -->
+    </nav>
+    <h1>OUR Certificate And Online Programs For 2024</h1>
+  </section>
+  <!--------blog  page content---------->
+
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="pictures/drahomir-hugo-posteby-mach-n4y3eiQSIoc-unsplash.jpg">
+        <h2>OUR Certificate & online programs for 2024</h2>
+
+        <p>Online graduate programs have become increasingly popular in
+           recent years, providing students with the flexibility to earn a
+            degree from the comfort of their own homes. These programs offer
+             the same quality of education as traditional
+           on-campus programs, with the added benefit of being able to learn 
+           at your own pace and on your own schedule...
+        <br>
+        <p>One of the main advantages of online graduate programs is the ability to actively
+           communicate with professors and classmates through online forums and discussion boards. 
+           This allows for a more personalized learning experience, as students can ask questions 
+           and receive feedback in real-time. Additionally, 
+          online programs often have smaller class sizes, which can lead to more individualized
+           attention from professors.
+        <br>
+        <p>Another benefit of online graduate programs is the
+           ability to work at your own pace. Assignments are typically given with a deadline,
+            but students can choose when and where they complete the work. This is especially 
+            beneficial for students who are balancing work and school, as they can fit their
+             education into their busy schedules.
+          Online graduate programs also offer a wide range of options, from business 
+          and marketing to education and healthcare.</p>
+        <br>
+        <p> This allows students to choose a program that aligns with their career
+           goals and interests. Additionally, many online programs offer certificates,
+            which can be a great way to demonstrate expertise in a specific area.
+          In conclusion, online graduate programs offer a convenient and flexible 
+          way to earn a degree, with the same quality of education as traditional on-campus programs.
+          .</p>
+
+        <div class="comment-box">
+
+
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="your comment"></textarea> 
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+        </div>
+      </div>
+      <div class="blog-right">
+        <h3>post catagories</h3>
+        <div>
+          <span>analytics</span>
+          <span>31</span>
+        </div>
+        <div>
+          <span>data science</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>computer science</span>
+          <span>51</span>
+        </div>
+        <div>
+          <span>economics</span>
+          <span>32</span>
+        </div>
+        <div>
+          <span>law</span>
+          <span>19</span>
+        </div>
+        <div>
+          <span>psychology</span>
+          <span>41</span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!----------------footer---------------->
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we believe that education should be accessible and flexible. That's why we offer<br>
+      a wide range of online certificate programs that can be completed at your
+      own pace. <br>Our programs are taught by experienced faculty who are dedicated to helping students succeed...</p>
+    <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Ashenafi Abraha.. ugr/172187/12</p>
+
+
+
+  <!--javascript for toggle menu-->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu() {
+      navlinks.style.right = "0";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta http-equiv = "refresh" content = "5" />---------to make the refresh by it self-------->
+  <title>university website design</title>
+  <link rel="stylesheet" href="stylewebsite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="website.html"><img src=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i> <!-- this is for the close(X) icon -->
+        <ul>
+          <li><a href="website.html">HOME</a></li>
+          <li><a href="About Us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i> <!-- this is for the menu(-) icon -->
+    </nav>
+   <h1>OUR COURSES</h1>
+  </section>
+<!--------courses---------->
+
+<section class="course">
+  <h1>Courses We Offer</h1>
+  <p>These Are The Lists of  Courses We Offer...</p>
+  <div class="row">
+    <div class="course-col">
+      <h3>A  bachelor’s degree</h3>
+      <p> bachelor’s degree takes around four years to complete, though thanks to the self-paced nature of some online degree programs, 
+        you may be able to speed up that timeline. With an online bachelor’s degree, you can either seek out a more
+         advanced degree, such as a master’s, or enter the workforce and begin a career in a number of fields</p>
+    </div>
+
+    <div class="course-col">
+      <h3>Doctoral degree</h3>
+      <p> A doctorate, or PhD, is a terminal degree in many disciplines, and generally takes between four and 
+        seven years While it’s less common to earn your doctorate degree
+         online, there are some programs available to explore, though
+          certain disciplines may be limited.!</p>
+    </div>
+    <div class="course-col">
+      <h3>Masters degree</h3>
+      <p>The two-year program provides a comprehensive curriculum that covers topics such as renewable energy
+         technologies, energy systems modeling, energy policy and economics, and sustainable energy project management. Students will have the opportunity to engage in cutting-edge research
+         and hands-on projects.</p>
+    </div>
+  </div>
+</section>
+<!--------facilities---------->
+
+<section class="facilities">
+  <h1>our facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+  <div class="row">
+    <div class="facilities-col">
+      <img src="pictures/library1.jpg">
+      <h3>WORLD CLASS LIBRARY</h3>
+      <p>The library's collection is expansive, containing over 500,000 print volumes, 300,000 e-books,
+         and 50,000 journal subscriptions, covering a wide range of academic disciplines. Students have access to 
+         an impressive array of online databases and research tools, allowing them to delve deep into scholarly literature from around the world.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="pictures/playground.jpg">
+      <h3>LARGEST PLAY GROUND</h3>
+      <p>"Our university playground is a hub of activity and fun, featuring state-of-the-art equipment for 
+        students to enjoy. From basketball courts to climbing walls, there's something for everyone to enjoy 
+        and stay active. The playground is open daily from sunrise to sunset, providing a convenient and accessible
+         space for students to take a break from their studies and have some fun. </p>
+    </div>
+        <div class="facilities-col">
+          <img src="pictures/cafe.jpg">
+          <h3>TASTY AND HEALTHY FOOD</h3>
+          <p>"At our university, we pride ourselves on offering a variety of tasty and healthy food
+             options to our students. Our dining facilities feature fresh fruits and vegetables, whole grains,
+              lean proteins, and healthy oils, all prepared with care and attention to flavor. We offer a range of
+               meal plans to fit different dietary needs and preferences, and our staff is always available.
+             </p>
+  </div>
+  </section>
+
+
+<!----------------footer---------------->
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p>we believe that education should be accessible and flexible. That's why we offer<br>
+    a wide range of online certificate programs that can be completed at your
+    own pace. <br>Our programs are taught by experienced faculty who are dedicated to helping students succeed...</p>
+     <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-tiktok"></i>
+     </div>
+     <p>Made with<i class="fa fa-heart-o"></i> by Ashenafi Abraha.. ugr/172187/12</p>
+</section>
+
+
+
+  <!--javascript for toggle menu-->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu() {
+      navlinks.style.right = "0";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<meta http-equiv = "refresh" content = "5" />---------to make the refresh by it self-------->
+  <title>university website design</title>
+  <link rel="stylesheet" href="stylewebsite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src=" "></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i> <!-- this is for the close(X) icon -->
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About Us.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i> <!-- this is for the menu(-) icon -->
+    </nav>
+   <h1>ABOUT US</h1>
+  </section>
+<!----about us content--->
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1><u>we are the world largest univeresity </u></h1>
+<br>
+<p1>you can get vast information why we are the best univeresity<br>across our location region 
+  and in the entire world cause we believe that education should be accessible and flexible. </p1>
+<br>
+<br>
+<br>
+<br>
+   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+</div>
+
+<div class="about-col">
+     <img src="pictures/gradurate.jpg">
+</div>
+</div>
+
+</section>
+
+<section class="footer">
+  <h3>ABOUT US</h3>
+  <p>we believe that education should be accessible and flexible. That's why we offer<br>
+    a wide range of online certificate programs that can be completed at your
+    own pace. <br>Our programs are taught by experienced faculty who are dedicated to helping students succeed...</p>
+     <br>
+  
+     <div class="icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-tiktok"></i>
+     </div>
+     <p>Made with<i class="fa fa-heart-o"></i> by Ashenafi Abraha.. ugr/172187/12</p>
+</section>
+
+
+
+  <!--javascript for toggle menu-->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu() {
+      navlinks.style.right = "0";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
